@@ -72,7 +72,7 @@ jobs:
       - lint
       - test
     env:
-      REACT_APP_MOVIE_API_URL: http://localhost:5000
+      REACT_APP_MOVIE_API_URL: http://a44ed15139d774eca96564ba52defbf3-1824889634.us-east-1.elb.amazonaws.com
       AWS_REGION: us-east-1
 
     steps:
